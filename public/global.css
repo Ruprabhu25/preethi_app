@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Unna&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -194,4 +194,82 @@ a:link {
 
 #socials img {
   margin-right: 10%;
+}
+
+/* About us start */
+.ourstory {
+  color: #6b0058;
+  font-family: "Sunflower";
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+.about_us {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.left-half,
+.right-half {
+  margin: 10%;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+/* General Classes */
+.title {
+  color: #6b0058;
+  font-family: "Sunflower";
+  font-weight: 500;
+  font-size: 48px;
+  margin-bottom: 5%;
+}
+
+.text {
+  color: #000000;
+  font-family: "Sunflower";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+/* Image Positions */
+/* Image 1 */
+.chopped_greens {
+  position: absolute;
+  top: 45%;
+  right: 8%;
+}
+
+.chopped_greens1 {
+  position: absolute;
+  top: 60%;
+  right: 6%;
+}
+
+.chopped_greens2 {
+  position: absolute;
+  top: 44%;
+  right: 7.5%;
+}
+
+/* Image 2 */
+.sliced_tomato {
+  position: absolute;
+  top: 11%;
+  left: 50.5%;
+}
+
+.sliced_tomato1 {
+  position: absolute;
+  top: 22%;
+  left: 48%;
+}
+
+.sliced_tomato2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
 }
